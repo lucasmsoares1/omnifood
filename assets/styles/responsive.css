@@ -1,0 +1,159 @@
+@media (max-width: 1140px){
+    html{
+        font-size: 50%;
+    }
+
+    .container{
+        width: 98vw;
+    }
+
+    .hero-right{
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero-right img{
+        width: 70%;
+    }
+}
+
+@media(max-width: 1024px){
+    .testimonials-galery{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(max-width: 920px){
+    .hero-container{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+    .header-container nav{
+        position: absolute;
+        inset: 0 0 0 -100vw;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        min-height: 100vh;
+        flex-direction: column;
+        background: var(--second-background);
+        transition: 0.25s;
+    }
+
+    .header-container nav.show{
+        inset: 0;
+    }
+
+    nav li a,
+    .main-link{
+        font-size: 24px;
+    }
+
+    .toggle-menu{
+        display: block;
+        color: #333333;
+        font-size: 4rem;
+        padding: 0.5rem;
+    }
+
+    .open-icon,
+    .close-icon{
+        display: none;
+    }
+
+    .close-icon{
+        color: var(--primary-color);
+    }
+
+    .active{
+        display: block;
+    }
+
+    .featured-logos{
+        flex-wrap: wrap;
+        gap: 5rem 5rem;
+    }
+}
+
+@media(max-width: 768px){
+    .how-grid__image img{
+        max-width: 60%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .testimonials-container{
+        grid-template-columns: 1fr;
+    }
+
+    .testimonials-galery{
+        display: none;
+    }
+
+    .contact-backimg{
+        display: none;
+    }
+
+    .contact-textbox{
+        width: 100%;
+    }
+
+    .footer-container{
+        grid-template-columns: 1fr 1fr;
+        gap: 8rem 8rem;
+    }
+}
+
+@media(max-width: 600px){
+    .how-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .how-grid__image img{
+        max-width: 25%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .grid-correction{
+        grid-row: 3 / 4;
+    }
+
+    .meals-grid{
+        grid-template-columns: 1fr;
+        width: 80vw;
+        margin: 0 auto;
+    }
+
+    .diets{
+        text-align: center;
+    }
+
+    .diet-list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonials{
+        grid-template-columns: 1fr;
+    }
+
+    .pricing-offers{
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 500px){
+    .cta-form{
+        grid-template-columns: 1fr;
+    }
+
+    .footer-container{
+        grid-template-columns: 1fr;
+        gap: 6rem;
+    }
+}

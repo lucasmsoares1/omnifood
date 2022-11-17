@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A chave da sua saúde alimentar esta aqui. Venha conhecer :)"
+    />
+    <link rel="icon" href="./assets/images/favicon.png" />
+    <link rel="stylesheet" href="./assets/styles/styles.css" />
+    <link rel="stylesheet" href="./assets/styles/global.css" />
+    <link rel="stylesheet" href="./assets/styles/responsive.css" />
+    <title>Omnifood — Seu cardápio mais saudável</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container header-container">
+        <img
+          src="./assets/images/omnifood.png"
+          class="logo"
+          alt="logo da omnifood"
+        />
+        <nav>
+          <li><a href="#how">Funcionamento</a></li>
+          <li><a href="#meals">Refeições</a></li>
+          <li><a href="#testimonials">Clientes</a></li>
+          <li><a href="#pricing">Preço</a></li>
+          <li><a class="main-link" href="#contact">Teste Gratis</a></li>
+        </nav>
+        <div class="toggle-menu">
+          <ion-icon name="menu" class="open-icon active"></ion-icon>
+          <ion-icon name="close" class="close-icon"></ion-icon>
+        </div>
+      </div>
+    </header>
+    <!--Main Content-->
+    <main>
+      <!--Hero Section-->
+      <section id="hero">
+        <div class="container hero-container">
+          <div class="hero-left">
+            <h1 class="hero-title">
+              Uma refeição saudável entregue à sua porta, todos os dias
+            </h1>
+            <p class="hero-description">
+              A assinatura alimentar inteligente de 365 dias por ano que fará
+              você comer saudável novamente. Adaptado aos seus gostos pessoais e
+              necessidades nutricionais.
+            </p>
+            <div class="hero-links">
+              <a href="#" class="hero-link"> Começar Agora </a>
+              <a href="#" class="hero-link"> Ler Mais &darr; </a>
+            </div>
+            <div class="hero-delivered">
+              <div class="delivered-images">
+                <img src="./assets/images/customer1.jpg" alt="customer image" />
+                <img src="./assets/images/customer2.jpg" alt="customer image" />
+                <img src="./assets/images/customer3.jpg" alt="customer image" />
+                <img src="./assets/images/customer4.jpg" alt="customer image" />
+                <img src="./assets/images/customer5.jpg" alt="customer image" />
+                <img src="./assets/images/customer6.jpg" alt="customer image" />
+              </div>
+              <div class="delivered-description">
+                <span>+ de 250.000</span> entregas no ultimo ano!
+              </div>
+            </div>
+          </div>
+          <div class="hero-right">
+            <img
+              src="./assets/images/hero.webp"
+              alt="Mulher provando comida, comidas saudaveis em potes."
+            />
+          </div>
+        </div>
+      </section>
+      <!--Hero Section-->
+
+      <!--Featured Section-->
+      <section id="featured">
+        <div class="container featured-container">
+          <div class="featured-title">Em Destaque</div>
+          <div class="featured-logos">
+            <img src="./assets/images/techcrunch.png" alt="techcrunch logo" />
+            <img
+              src="./assets/images/business-insider.png"
+              alt="business-insider logo"
+            />
+            <img
+              src="./assets/images/the-new-york-times.png"
+              alt="the-new-york-times logo"
+            />
+            <img src="./assets/images/forbes.png" alt="forbes logo" />
+            <img src="./assets/images/usa-today.png" alt="usa-today logo" />
+          </div>
+        </div>
+      </section>
+      <!--Featured Section-->
+
+      <!--How Section-->
+      <section id="how">
+        <div class="container how-container">
+          <div class="how-heading">
+            <div class="sub-heading">como funciona ?</div>
+            <div class="heading-secondary">
+              Sua dose diaria de saúde em 3 simples passos
+            </div>
+          </div>
+          <div class="how-grid">
+            <div class="how-grid__item">
+              <p class="step-number">01</p>
+              <h3 class="heading-tertiary">
+                Nos diga o que você gosta (e o que não gosta)
+              </h3>
+              <p class="step-description">
+                Nunca mais perca tempo pensando no que comer! O Omnifood AI
+                criará um plano de refeições semanal 100% personalizado apenas
+                para você. Ele garante que você obtenha todos os nutrientes e
+                vitaminas que você precisa, não importa qual dieta você siga!
+              </p>
+            </div>
+            <div class="how-grid__image">
+              <img
+                src="./assets/images/app-screen-1.png"
+                alt="Tela de sugestões do aplicativo"
+              />
+            </div>
+            <div class="how-grid__image">
+              <img
+                src="./assets/images/app-screen-2.png"
+                alt="Tela de sugestões do aplicativo"
+              />
+            </div>
+            <div class="how-grid__item grid-correction">
+              <p class="step-number">02</p>
+              <h3 class="heading-tertiary">
+                Aprove seu plano de refeições semanal
+              </h3>
+              <p class="step-description">
+                Uma vez por semana, aprove o plano de refeições gerado para você
+                pela Omnifood AI. Você pode alterar ingredientes, trocar
+                refeições inteiras ou até adicionar suas próprias receitas.
+              </p>
+            </div>
+            <div class="how-grid__item">
+              <p class="step-number">03</p>
+              <h3 class="heading-tertiary">
+                Receba refeições em horário conveniente
+              </h3>
+              <p class="step-description">
+                Os melhores chefs da cidade prepararão sua refeição selecionada
+                todos os dias, e nós a entregaremos à sua porta sempre que for
+                melhor para você. Você pode alterar o horário de entrega e
+                endereço diariamente!
+              </p>
+            </div>
+            <div class="how-grid__image">
+              <img
+                src="./assets/images/app-screen-3.png"
+                alt="Tela de sugestões do aplicativo"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--How Section-->
+
+      <!--Meals Section-->
+      <section id="meals">
+        <div class="container meals-container">
+          <div class="meals-heading">
+            <div class="sub-heading">Refeições</div>
+            <div class="heading-secondary">
+              Omnifood AI escolhe entre mais de 5.000 receitas
+            </div>
+          </div>
+          <div class="meals-grid">
+            <div class="meal">
+              <img src="./assets/images/meal-1.jpg" alt="Gyozas" />
+              <div class="meal-content">
+                <div class="meal-tags">
+                  <span class="tag tag-vegetarian">Vegetariano</span>
+                </div>
+                <p class="meal-title">Gyozas</p>
+                <ul class="meal-attributes">
+                  <li class="meal-attribute">
+                    <ion-icon name="flame-outline"></ion-icon>
+                    <strong>650</strong> calorias
+                  </li>
+                  <li class="meal-attribute">
+                    <ion-icon name="restaurant-outline"></ion-icon>
+                    NutriScore ® <strong>92</strong>
+                  </li>
+                  <li class="meal-attribute">
+                    <ion-icon name="star-outline"></ion-icon>
+                    Avaliação <strong>4.8</strong>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="meal">
+              <img src="./assets/images/meal-2.jpg" alt="Salada de abacate" />
+              <div class="meal-content">
+                <div class="meal-tags">
+                  <span class="tag tag-vegan">Vegeno</span>
+                  <span class="tag tag-paleo">Paleo</span>
+                </div>
+                <p class="meal-title">Salada de Abacate</p>
+                <ul class="meal-attributes">
+                  <li class="meal-attribute">
+                    <ion-icon name="flame-outline"></ion-icon>
+                    <strong>420</strong> calorias
+                  </li>
+                  <li class="meal-attribute">
+                    <ion-icon name="restaurant-outline"></ion-icon>
+                    NutriScore ® <strong>92</strong>
+                  </li>
+                  <li class="meal-attribute">
+                    <ion-icon name="star-outline"></ion-icon>
+                    Avaliação <strong>4.8</strong>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="diets">
+              <h3 class="heading-tertiary">Trabalhamos com qualquer dieta</h3>
+              <ul class="diet-list">
+                <li class="diet-item">
+                  <ion-icon name="checkmark"></ion-icon>
+                  Vegetariana
+                </li>
+                <li class="diet-item">
+                  <ion-icon name="checkmark"></ion-icon>
+                  Vegana
+                </li>
+                <li class="diet-item">
+                  <ion-icon name="checkmark"></ion-icon>
+                  Sem lactose
+                </li>
+                <li class="diet-item">
+                  <ion-icon name="checkmark"></ion-icon>
+                  Infantil
+                </li>
+                <li class="diet-item">
+                  <ion-icon name="checkmark"></ion-icon>
+                  Sem glúten
+                </li>
+                <li class="diet-item">
+                  <ion-icon name="checkmark"></ion-icon>
+                  Paleo
+                </li>
+                <li class="diet-item">
+                  <ion-icon name="checkmark"></ion-icon>
+                  Keto
+                </li>
+                <li class="diet-item">
+                  <ion-icon name="checkmark"></ion-icon>
+                  Low FODMAP
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Meals  Section-->
+
+      <!--Meals Section-->
+      <section id="testimonials">
+        <div class="container testimonials-container">
+          <div class="testimonisla-clients">
+            <div class="sub-heading">Reviews</div>
+            <div class="heading-secondary">
+              O que nossos clientes dizem ?
+            </div>
+            <div class="testimonials">
+              <div class="testimonial">
+                <img
+                  src="./assets/images/customer1.jpg"
+                  alt="Foto de cliente (Josiane Alves)"
+                />
+                <div class="testimonial-text">
+                  O algoritmo de IA é muito bom, ele escolhe as refeições certas
+                  para eu toda vez. É incrível não se preocupar mais com comida!
+                </div>
+                <div class="testimonial-name">— Josiane Alves</div>
+              </div>
+              <div class="testimonial">
+                <img
+                  src="./assets/images/customer2.jpg"
+                  alt="Foto de cliente (Jonas Classman)"
+                />
+                <div class="testimonial-text">
+                  Comprei Omnifood para toda a família, e isso libera muito
+                  tempo! Além disso, tudo é orgânico e vegano e sem plástico.
+                </div>
+                <div class="testimonial-name">— Jonas Classman</div>
+              </div>
+              <div class="testimonial">
+                <img
+                  src="./assets/images/customer3.jpg"
+                  alt="Foto de cliente (Alice Cooperfield)"
+                />
+                <div class="testimonial-text">
+                  Omnifood é um salva-vidas! Acabei de abrir uma empresa, então
+                  não tenho tempo para cozinhar. Eu não poderia viver sem minhas
+                  refeições diárias agora!
+                </div>
+                <div class="testimonial-name">— Alice Cooperfield</div>
+              </div>
+              <div class="testimonial">
+                <img
+                  src="./assets/images/customer4.jpg"
+                  alt="Foto de cliente (Ben Marques)"
+                />
+                <div class="testimonial-text">
+                  Refeições económicas, saudáveis ​​e saborosas, sem sequer ter
+                  de encomendar manualmente! Parece verdadeiramente mágico.
+                </div>
+                <div class="testimonial-name">— Ben Marks</div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonials-galery">
+            <img
+              src="./assets/images/gallery-1.jpg"
+              alt="Foto de exemplo de alimento."
+            />
+            <img
+              src="./assets/images/gallery-2.jpg"
+              alt="Foto de exemplo de alimento."
+            />
+            <img
+              src="./assets/images/gallery-3.jpg"
+              alt="Foto de exemplo de alimento."
+            />
+            <img
+              src="./assets/images/gallery-4.jpg"
+              alt="Foto de exemplo de alimento."
+            />
+            <img
+              src="./assets/images/gallery-5.jpg"
+              alt="Foto de exemplo de alimento."
+            />
+            <img
+              src="./assets/images/gallery-6.jpg"
+              alt="Foto de exemplo de alimento."
+            />
+            <img
+              src="./assets/images/gallery-7.jpg"
+              alt="Foto de exemplo de alimento."
+            />
+            <img
+              src="./assets/images/gallery-8.jpg"
+              alt="Foto de exemplo de alimento."
+            />
+            <img
+              src="./assets/images/gallery-9.jpg"
+              alt="Foto de exemplo de alimento."
+            />
+          </div>
+        </div>
+      </section>
+      <!--Meals  Section-->
+
+      <!--Pricing Section-->
+      <section id="pricing">
+        <div class="container pricing-container">
+          <div class="sub-heading">Preços</div>
+          <div class="heading-secondary">Coma bem gastando pouco</div>
+          <div class="pricing-offers">
+            <div class="pricing-plan">
+              <p class="plan-name">Iniciante</p>
+              <p class="plan-price">R$ 450,00</p>
+              <p class="plan-text">Por mês. São só 15 reais por refeição</p>
+              <ul class="plan-advantages">
+                <li class="advantage">
+                  <ion-icon name="checkmark"></ion-icon>
+                  2 refeições por dia
+                </li>
+                <li class="advantage">
+                  <ion-icon name="checkmark"></ion-icon>
+                  Entregas 24/7
+                </li>
+                <li class="advantage">
+                  <ion-icon name="checkmark"></ion-icon>
+                  Entregas grátis
+                </li>
+                <li class="advantage">
+                  <ion-icon name="checkmark"></ion-icon>
+                  Acesso antecipado a receitas
+                </li>
+                <li>
+                  <a class="plan-start" href="#"> Começar Agora </a>
+                </li>
+              </ul>
+            </div>
+            <div class="pricing-plan">
+              <p class="plan-name">Completo</p>
+              <p class="plan-price">R$ 750,00</p>
+              <p class="plan-text">Por mês. São só 25 reais por refeição</p>
+              <ul class="plan-advantages">
+                <li class="advantage">
+                  <ion-icon name="checkmark"></ion-icon>
+                  2 refeições por dia
+                </li>
+                <li class="advantage">
+                  <ion-icon name="checkmark"></ion-icon>
+                  Entregas 24/7
+                </li>
+                <li class="advantage">
+                  <ion-icon name="checkmark"></ion-icon>
+                  Entregas grátis
+                </li>
+                <li class="advantage">
+                  <ion-icon name="checkmark"></ion-icon>
+                  Acesso antecipado a receitas
+                </li>
+                <li>
+                  <a class="plan-start" href="#"> Começar Agora </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Pricing  Section-->
+
+      <!--Contact Section-->
+      <section id="contact">
+        <div class="container contact-container">
+          <div class="contact-textbox">
+            <h2 class="heading-secondary">
+              Ganhe sua primeira refeição grátis.
+            </h2>
+            <p class="cta-text">
+              Refeições saudáveis, saborosas e descomplicadas esperam por você.
+              Comece a comer bem hoje. Você pode cancelar ou pausar a qualquer
+              momento. E a primeira refeição é por nossa conta!
+            </p>
+            <form class="cta-form" action="#">
+              <div class="form-control">
+                <label for="name">Nome Completo</label>
+                <input type="text" id="name" name="name" />
+              </div>
+              <div class="form-control">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" />
+              </div>
+              <div class="form-control">
+                <label for="referal">Por onde você nos conheceu ?</label>
+                <input type="text" id="referal" name="referal" />
+              </div>
+
+              <button class="cta-submit">Registre-se agora</button>
+            </form>
+          </div>
+          <div class="contact-backimg">
+            <img src="./assets/images/eating.jpg">
+          </div>
+        </div>
+      </section>
+      <!--Contact Section-->
+    </main>
+    <!--Main Content-->
+
+    <!--Footer-->
+    <footer>
+      <div class="container footer-container">
+        <div class="logo-col">
+          <img src="./assets/images/omnifood.png" alt="logo da omnifood">
+          Copyright © | Todos os dieritos reservados
+        </div>
+        <div class="nav-col">
+          <p>Conta</p>
+          <ul>
+            <li><a href="#">Criar conta</a></li>
+            <li><a href="#">Logar</a></li>
+            <li><a href="#">iOS app</a></li>
+            <li><a href="#">Android App<</a></li>
+          </ul>
+        </div>
+        <div class="nav-col">
+          <p>Compania</p>
+          <ul>
+            <li><a href="#">Sobre nós</a></li>
+            <li><a href="#">Negócios</a></li>
+            <li><a href="#">Parceiros</a></li>
+            <li><a href="#">Carreiras</a></li>
+          </ul>
+        </div>
+        <div class="nav-col">
+          <p>Recursos</p>
+          <ul>
+            <li><a href="#">Central de ajuda</a></li>
+            <li><a href="#">Diretório de receiras</a></li>
+            <li><a href="#">Privacidade e termos</a></li>
+            <li><a href="#">Segurança</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!--Footer-->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="./assets/script/script.js"></script>
+  </body>
+</html>
