@@ -11,9 +11,9 @@ Omnifood - é um website de uma empresa fictícia que proporciona planos de deli
 ## 🔥 Resultado
 
 <p align="center">
-  <img title="#NextLevelWeek" src="./github/omnifoodesktop.gif" width="720px">
+  <img title="#NextLevelWeek" src="./github/omnifoodesktop.gif" width="600px">
 
-  <img title="#NextLevelWeek" src="./github/omnifoomobile.gif" width="179px">
+  <img title="#NextLevelWeek" src="./github/omnifoomobile.gif" width="177px">
 </p>
 
 <br/>
