@@ -19,8 +19,8 @@ Omnifood - é um website de uma empresa fictícia que proporciona planos de deli
 <br/>
 
 ## :rocket: Tecnologias
-- [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-- [CSS3(https://developer.mozilla.org/en-US/docs/Glossary/HTML5)
+- [HTML5](https://developer.mozilla.org/en-US/docs/Glossary/HTML5)
+- [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [Ion-Icons](https://ionic.io/ionicons/v4)
 
